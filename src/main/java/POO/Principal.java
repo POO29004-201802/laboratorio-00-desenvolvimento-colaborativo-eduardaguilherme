@@ -2,6 +2,7 @@ package POO;
 
 public class Principal {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Exercicio01 ex1 = new Exercicio01();
+        ex1.criaRetangulo(0);
     }
 }
