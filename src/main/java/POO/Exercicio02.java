@@ -24,9 +24,9 @@ public class Exercicio02 {
             nEspacos(h/2-i);
             linha(2*i);
         }
-        for(int i = h/2; i >= 0; i--){
-            nEspacos(h/2-i);
-            linha(2*i);
+        for(int i = (h%2 != 0) ? h/2 : h/2-1; i >= 0; i -= 1) {
+            nEspacos(h / 2 - i);
+            linha(2 * i);
         }
     }
 }
